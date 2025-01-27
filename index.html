@@ -50,13 +50,19 @@
     section {
       padding: 50px 20px;
     }
-    .services, .team {
+    .services, .team, .FTP {
       display: flex;
       justify-content: space-around;
       gap: 20px;
       flex-wrap: wrap;
     }
-    .service, .team-member {
+    .FTP a {
+      color: #333; /* Cambia el color según tu diseño */
+      font-family: Arial, sans-serif; /* Cambia la fuente según tu diseño */
+      font-size: 20px; /* Cambia el tamaño de la fuente según tu diseño */
+      text-decoration: none; /* Quita el subrayado del enlace */
+    }
+    .service, .team-member, .FTP {
       background: #ecf0f1;
       padding: 20px;
       border-radius: 8px;
@@ -81,9 +87,9 @@
 <header>
   <div class="container">
     <div class="navbar">
-      <h1>[Your Company Name]</h1>
+      <h1>Guild Nakama Company</h1>
       <nav>
-        <a href="#services">Services</a>
+        <a href="#servicios">FTP</a>
         <a href="#team">Team</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -92,18 +98,18 @@
 </header>
 
 <section class="hero">
-  <h1>Welcome to [Your Company Name]</h1>
+  <h1>Bienvenido a Guild Nakama Company</h1>
   <p>Your partner in innovative solutions and unparalleled service.</p>
   <button style="padding: 10px 20px; font-size: 1rem; color: white; background: #e74c3c; border: none; border-radius: 5px; cursor: pointer;">Learn More</button>
 </section>
 
-<section id="services">
+<section id="servicios">
   <div class="container">
-    <h2>Our Services</h2>
+    <h2>Otros servicios</h2>
     <div class="services">
-      <div class="service">
-        <h3>Consulting</h3>
-        <p>Expert advice to help you achieve your business goals.</p>
+      <div class="FTP">
+        <h3><a href="https://filemanager.ai/new/#/c/185.27.134.11/if0_38151324/eyJ0IjoiZnRwIiwiYyI6eyJwIjoiVG85eUxJQjk3VkhFZ2ZlIiwiaSI6IlwvIn19">FTP</a></h3>
+        <p>Servidor FTP para compartir todo tipo de archivos, carpetas, etc.</p>
       </div>
       <div class="service">
         <h3>Development</h3>
@@ -122,17 +128,14 @@
     <h2>Meet Our Team</h2>
     <div class="team">
       <div class="team-member">
-        <img src="https://via.placeholder.com/150" alt="Team Member" style="border-radius: 50%;">
         <h3>Jane Doe</h3>
         <p>CEO</p>
       </div>
       <div class="team-member">
-        <img src="https://via.placeholder.com/150" alt="Team Member" style="border-radius: 50%;">
         <h3>John Smith</h3>
         <p>CTO</p>
       </div>
       <div class="team-member">
-        <img src="https://via.placeholder.com/150" alt="Team Member" style="border-radius: 50%;">
         <h3>Mary Johnson</h3>
         <p>COO</p>
       </div>
@@ -155,7 +158,7 @@
 
 <footer>
   <div class="container">
-    <p>&copy; 2025 [Your Company Name]. All rights reserved.</p>
+    <p>&copy; 2025 Guild Nakama Company. All rights reserved.</p>
     <div class="socials">
       <a href="#">Facebook</a>
       <a href="#">Twitter</a>
